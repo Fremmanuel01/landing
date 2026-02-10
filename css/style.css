@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* project css components */
+
+@import url('/landing/css/components/banner.css');
+@import url('/landing/css/components/button.css');
+@import url('/landing/css/components/cards.css');
+@import url('/landing/css/components/footer.css');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.steps-cards{
+
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 100px;
+  gap: 40px;
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.main-content h2 {
+
+}

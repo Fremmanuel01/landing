@@ -1,0 +1,23 @@
+.card-apply{
+width:200px;
+height:250px;
+box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+margin:0;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.img-apply{
+  width: 100%;
+  height: 10vh;
+}
+.card-apply h2{
+  font-size:18px;
+}
+.card-apply p{
+  font-size:16px;
+  color: #484545;
+  text-align: center;
+}
